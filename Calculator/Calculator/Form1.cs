@@ -69,42 +69,50 @@ namespace Calculator
 
         private void Nine(object sender, EventArgs e)
         {
-
+            Display.Text += "9";
+            access.number = 9;
         }
 
         private void Four(object sender, EventArgs e)
         {
-
+            Display.Text += "4";
+            access.number = 4;
         }
 
         private void Five(object sender, EventArgs e)
         {
-
+            Display.Text += "5";
+            access.number = 5;
         }
 
         private void Six(object sender, EventArgs e)
         {
-
+            Display.Text += "6";
+            access.number = 6;
         }
 
         private void One(object sender, EventArgs e)
         {
-
+            Display.Text += "1";
+            access.number = 1;
         }
 
         private void Two(object sender, EventArgs e)
         {
-
+            Display.Text += "2";
+            access.number = 2;
         }
 
         private void Three(object sender, EventArgs e)
         {
-
+            Display.Text += "3";
+            access.number = 3;
         }
 
         private void Zero(object sender, EventArgs e)
         {
-
+            Display.Text += "0";
+            access.number = 0;
         }
 
         private void Dote(object sender, EventArgs e)
